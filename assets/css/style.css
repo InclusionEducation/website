@@ -537,10 +537,13 @@ section {
 .about .container {
   position: relative;
   z-index: 10;
+  max-width: auto;
+  
 }
 
 .about .content {
   padding: 30px 30px 30px 0;
+  justify-content: center;
 }
 
 .about .content h3 {
@@ -921,8 +924,8 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+.portfolio-details .portfolio-info  {
+  margin-bottom: 100px;
 }
 
 .portfolio-details .portfolio-description {
